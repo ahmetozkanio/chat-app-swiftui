@@ -11,10 +11,10 @@
 		4849D97B2AD334010007D6BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849D97A2AD334010007D6BB /* ContentView.swift */; };
 		4849D97D2AD334020007D6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4849D97C2AD334020007D6BB /* Assets.xcassets */; };
 		4849D9802AD334020007D6BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4849D97F2AD334020007D6BB /* Preview Assets.xcassets */; };
-		4849D9882AD33D550007D6BB /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849D9872AD33D550007D6BB /* TitleRow.swift */; };
 		4849D98B2AD3408A0007D6BB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849D98A2AD3408A0007D6BB /* Message.swift */; };
 		4849D98D2AD340F20007D6BB /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849D98C2AD340F20007D6BB /* MessageBubble.swift */; };
 		4849D98F2AD346CA0007D6BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849D98E2AD346CA0007D6BB /* Extensions.swift */; };
+		4849D9912AD348310007D6BB /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849D9902AD348310007D6BB /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +23,10 @@
 		4849D97A2AD334010007D6BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4849D97C2AD334020007D6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4849D97F2AD334020007D6BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4849D9872AD33D550007D6BB /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		4849D98A2AD3408A0007D6BB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		4849D98C2AD340F20007D6BB /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		4849D98E2AD346CA0007D6BB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4849D9902AD348310007D6BB /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 		4849D9862AD33D1A0007D6BB /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				4849D9872AD33D550007D6BB /* TitleRow.swift */,
 				4849D98C2AD340F20007D6BB /* MessageBubble.swift */,
+				4849D9902AD348310007D6BB /* TitleRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 				4849D98B2AD3408A0007D6BB /* Message.swift in Sources */,
 				4849D98D2AD340F20007D6BB /* MessageBubble.swift in Sources */,
 				4849D9792AD334010007D6BB /* ChatAppApp.swift in Sources */,
-				4849D9882AD33D550007D6BB /* TitleRow.swift in Sources */,
+				4849D9912AD348310007D6BB /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
