@@ -19,6 +19,7 @@
 		4897718D2AD466BB00AB3DE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4897718C2AD466BB00AB3DE9 /* GoogleService-Info.plist */; };
 		489771902AD4685400AB3DE9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4897718F2AD4685400AB3DE9 /* FirebaseFirestore */; };
 		489771922AD4685400AB3DE9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 489771912AD4685400AB3DE9 /* FirebaseFirestoreSwift */; };
+		489771942AD46A2F00AB3DE9 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489771932AD46A2F00AB3DE9 /* MessagesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4849D9902AD348310007D6BB /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		4849D9922AD348740007D6BB /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 		4897718C2AD466BB00AB3DE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		489771932AD46A2F00AB3DE9 /* MessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				4849D97C2AD334020007D6BB /* Assets.xcassets */,
 				4849D97E2AD334020007D6BB /* Preview Content */,
 				4849D98E2AD346CA0007D6BB /* Extensions.swift */,
+				489771932AD46A2F00AB3DE9 /* MessagesManager.swift */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				4849D97B2AD334010007D6BB /* ContentView.swift in Sources */,
 				4849D98F2AD346CA0007D6BB /* Extensions.swift in Sources */,
 				4849D98B2AD3408A0007D6BB /* Message.swift in Sources */,
+				489771942AD46A2F00AB3DE9 /* MessagesManager.swift in Sources */,
 				4849D9932AD348740007D6BB /* MessageField.swift in Sources */,
 				4849D98D2AD340F20007D6BB /* MessageBubble.swift in Sources */,
 				4849D9792AD334010007D6BB /* ChatAppApp.swift in Sources */,
